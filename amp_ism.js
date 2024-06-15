@@ -343,8 +343,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 						// reset timer so that latency is measured from this point in time
 						{type:'resetTimer'},
 						//Add keyboard input
-						{type:'setInput',input:{handle:leftSortingLabel,on: 'keypressed', key:piCurrent.leftKey}},
-						{type:'setInput',input:{handle:rightSortingLabel,on: 'keypressed', key:piCurrent.rightKey}},
+						{type:'setInput',input:{handle:leftSortingLabel,on: 'click', key:piCurrent.leftInput}},
+						{type:'setInput',input:{handle:rightSortingLabel,on: 'click', key:piCurrent.rightInput}},
 						//Deadline for the display of the target
 						{type:'trigger',handle:'targetOut',duration:'<%=trialData.targetDuration%>'}
 					]
