@@ -116,8 +116,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//The default font color of text in the task (e.g., for key labels).
 			fontColor : '#000000', 
 
-			rightKey : 'i', 
-			leftKey : 'e', 
+			rightKey : 'a', 
+			leftKey : 'b', 
 			
 			base_url : {//Where are your images at?
 				image : '/implicit/common/all/js/pip/piscripts/amp/images/'
