@@ -262,8 +262,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 
 		var rightSortingLabel = piCurrent.sortingLabel1; 
 		var leftSortingLabel = piCurrent.sortingLabel2;
-		var maxW = piCurrent.touchMaxStimulusWidth;
-		var maxH = piCurrent.touchMaxStimulusHeight;
+		
 		if (piCurrent.randomizeLabelSides && Math.random() < 0.5)
 		{
 			rightSortingLabel = piCurrent.sortingLabel2;
